@@ -1,2 +1,12 @@
 autom4te.cache/*
 *.log
+.deps/*
+config.h
+*.status
+stamp-h*
+Makefile
+*.o
+2csv
+2xml
+csv2
+xml2

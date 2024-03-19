@@ -11,6 +11,7 @@ AC_CONFIG_HEADERS([config.h])dnl
 
 # Checks for programs.
 AC_PROG_CC
+AC_PROG_EGREP
 AC_PROG_LN_S
 
 # Checks for libraries.
@@ -19,7 +20,7 @@ AC_SUBST([XML_LIBS])dnl
 AC_SUBST([XML_CFLAGS])dnl
 
 # Checks for header files.
-AC_HEADER_STDC
+AC_CHECK_INCLUDES_DEFAULT
 AC_CHECK_HEADERS([stdlib.h string.h unistd.h])dnl
 
 # Checks for typedefs, structures, and compiler characteristics.
