@@ -9,7 +9,7 @@ xml2_LDADD = $(XML_LIBS)
 csv2_SOURCES = csv2.c
 2csv_SOURCES = 2csv.c
 
-DISTCLEANFILES = *~ build-aux/*~
+DISTCLEANFILES = *~ build-aux/*~ autoscan.log
 
 install-exec-hook:
 	ln -sf $(DESTDIR)$(bindir)/xml2 $(DESTDIR)$(bindir)/html2

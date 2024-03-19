@@ -6,3 +6,4 @@ build-aux/install-sh linguist-vendored
 build-aux/missing linguist-vendored
 m4/pkg.m4 linguist-vendored
 web/*.html linguist-documentation
+Makefile.in linguist-generated
