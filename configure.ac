@@ -2,7 +2,7 @@ dnl#                                               -*- Autoconf -*-
 dnl# Process this file with autoconf to produce a configure script.
 
 AC_PREREQ([2.61])
-AC_INIT([xml2],[0.5],[egnor@ofb.net])
+AC_INIT([xml2],[0.5.1],[egnor@ofb.net])
 AC_CONFIG_AUX_DIR([build-aux])
 AM_INIT_AUTOMAKE([1.9.6 -Wall -Werror foreign])
 AC_CONFIG_MACRO_DIR([m4])
