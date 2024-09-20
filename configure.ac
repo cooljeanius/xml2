@@ -9,6 +9,8 @@ AC_CONFIG_MACRO_DIR([m4])
 AC_CONFIG_SRCDIR([2csv.c])
 AC_CONFIG_HEADERS([config.h])dnl
 
+AM_MAINTAINER_MODE
+
 # Checks for programs.
 AC_PROG_CC
 AC_PROG_EGREP
