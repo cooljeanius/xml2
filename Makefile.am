@@ -16,4 +16,5 @@ install-exec-hook:
 	ln -sf $(DESTDIR)$(bindir)/2xml $(DESTDIR)$(bindir)/2html
 
 distclean-local:
+	-rm -rf .deps || rmdir .deps
 	-rm -rf autom4te.cache || rmdir autom4te.cache
